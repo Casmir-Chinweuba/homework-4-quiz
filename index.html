@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Coding Quiz Challenge</title>
+  </head>
+  <body>
+    <div class="start_btn first-div">
+      <button id="start_btn">Start Quiz</button>
+    </div>
+
+    <div class="info_box">
+      <div class="info_title">
+        <span>Some Rules of this Quiz</span>
+      </div>
+      <div class="info_list">
+        <div class="info">
+          1. You will have only <span>30 seconds</span> per question.
+        </div>
+        <div class="info">
+          2. Once you have selected your answer, you can't reselect.
+        </div>
+        <div class="info">
+          3. You can't select any option once time goes off.
+        </div>
+        <div class="info">
+          4. You can't exit from the quiz while you are playing.
+        </div>
+        <div class="info">
+          5. You will get points on the basis of your correct answers.
+        </div>
+        <div class="buttons">
+          <button class="quit-button">Exit Quiz</button>
+          <button class="restart-button">Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="quiz_box1">
+      <header>
+        <div class="title">Quiz Challenge Application</div>
+        <div class="timer">
+          <div class="time_text">Time Left</div>
+          <div class="timer_sec"></div>
+        </div>
+      </header>
+      <section>
+        <div class="que_text">
+          <span>what is the colour of sky?</span>
+        </div>
+        <div class="option_list">
+          <div class="options" data-correct="true">
+            <span>blue</span>
+            <div class="icon"><i class="fas fa-check"></i></div>
+          </div>
+          <div class="options">
+            <span id="wrong-answer">Yellow</span>
+          </div>
+          <div class="options">
+            <span id="wrong-answer">pink</span>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="total_que">
+          <span
+            ><p>1</p>
+            of
+            <p>3</p>
+            Questions</span
+          >
+        </div>
+      </footer>
+    </div>
+
+    <div class="quiz_box2">
+      <header>
+        <div class="title">Quiz Challenge Application</div>
+        <div class="timer">
+          <div class="time_text">Time Left</div>
+          <div class="timer_sec"></div>
+        </div>
+      </header>
+      <section>
+        <div class="que_text">
+          <span>How many days are there in a week?</span>
+        </div>
+        <div class="option_list">
+          <div class="options" data-correct="true">
+            <span id="correct-answer2">7</span>
+            <div class="icon"><i class="fas fa-check"></i></div>
+          </div>
+          <div class="options">
+            <span id="wrong-answer">5</span>
+          </div>
+          <div class="options">
+            <span id="wrong-answer">3</span>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="total_que">
+          <span
+            ><p>2</p>
+            of
+            <p>3</p>
+            Questions</span
+          >
+        </div>
+      </footer>
+    </div>
+
+    <div class="quiz_box3">
+      <header>
+        <div class="title">Quiz Challenge Application</div>
+        <div class="timer">
+          <div class="time_text">Time Left</div>
+          <div class="timer_sec"></div>
+        </div>
+      </header>
+      <section>
+        <div class="que_text">
+          <span>How many months are there in a year?</span>
+        </div>
+        <div class="option_list">
+          <div class="options" data-correct="true">
+            <span id="correct-answer3">12</span>
+            <div class="icon"><i class="fas fa-check"></i></div>
+          </div>
+          <div class="options">
+            <span id="wrong-answer">19</span>
+          </div>
+          <div class="options">
+            <span id="wrong-answer">10</span>
+          </div>
+        </div>
+      </section>
+    </div>
+      <div class="end_box">
+        <header>
+          <div class="title">Quiz Challenge Application</div>
+        </header>
+        <section>
+          <p><input type="text" name="name" id="name" placeholder="Please enter your name"></p>
+          <p><button id="submit-score">Submit</button></p>
+          <div class="que_text">
+            <span>Game Over</span>
+          </div>
+        </section>
+        </footer>
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+  </body>
+</html>
